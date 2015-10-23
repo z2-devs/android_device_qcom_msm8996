@@ -134,3 +134,5 @@ HAVE_SYNAPTICS_DSX_FW_UPGRADE := true
 
 # Enable MDTP (Mobile Device Theft Protection)
 TARGET_USE_MDTP := true
+
+BOARD_HAL_STATIC_LIBRARIES := libhealthd.msm
